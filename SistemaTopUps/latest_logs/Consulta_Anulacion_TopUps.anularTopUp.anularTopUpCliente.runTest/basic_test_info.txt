@@ -1,0 +1,52 @@
+PruebasSistemaTopUps.py::anularTopUpCliente::runTest
+--------------------------------------------------------------------
+Last Page: data:,
+  Browser: chrome (107.0.5304.89)
+   Driver: chromedriver (107.0.5304.62)
+Timestamp: 1668093222  (Unix Timestamp)
+     Date: Thursday, November 10, 2022
+     Time: 9:13:42 AM  (Central America Standard Time, UTC-06:00)
+--------------------------------------------------------------------
+Traceback: File "C:\Program Files\Python310\lib\unittest\case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "C:\Program Files\Python310\lib\unittest\case.py", line 549, in _callTestMethod
+    method()
+  File "C:\QA\DYMM-1155\PruebasFinales\SistemaTopUps\Consulta_Anulacion_TopUps\anularTopUp.py", line 67, in runTest
+    driver.save_screenshot('Prueba_Fallida_ConsultaTopUp.png')
+  File "C:\Users\car4173at\AppData\Roaming\Python\Python310\site-packages\selenium\webdriver\remote\webdriver.py", line 951, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "C:\Users\car4173at\AppData\Roaming\Python\Python310\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\car4173at\AppData\Roaming\Python\Python310\site-packages\selenium\webdriver\remote\webdriver.py", line 962, in get_screenshot_as_png
+    return b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\car4173at\AppData\Roaming\Python\Python310\site-packages\selenium\webdriver\remote\webdriver.py", line 974, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\car4173at\AppData\Roaming\Python\Python310\site-packages\selenium\webdriver\remote\webdriver.py", line 428, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\car4173at\AppData\Roaming\Python\Python310\site-packages\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+Exception: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.106)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01201ED3+2236115]
+	Ordinal0 [0x011992F1+1807089]
+	Ordinal0 [0x010A66FD+812797]
+	Ordinal0 [0x0108DFFA+712698]
+	Ordinal0 [0x010F506B+1134699]
+	Ordinal0 [0x0110514A+1200458]
+	Ordinal0 [0x010F18A6+1120422]
+	Ordinal0 [0x010CA73D+960317]
+	Ordinal0 [0x010CB71F+964383]
+	GetHandleVerifier [0x014AE7E2+2743074]
+	GetHandleVerifier [0x014A08D4+2685972]
+	GetHandleVerifier [0x01292BAA+532202]
+	GetHandleVerifier [0x01291990+527568]
+	Ordinal0 [0x011A080C+1837068]
+	Ordinal0 [0x011A4CD8+1854680]
+	Ordinal0 [0x011A4DC5+1854917]
+	Ordinal0 [0x011AED64+1895780]
+	BaseThreadInitThunk [0x77CBFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77E67BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77E67B8E+238]

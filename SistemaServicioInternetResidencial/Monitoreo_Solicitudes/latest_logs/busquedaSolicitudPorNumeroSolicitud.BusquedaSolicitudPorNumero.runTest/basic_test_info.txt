@@ -1,0 +1,52 @@
+busquedaSolicitudPorNumeroSolicitud.py::BusquedaSolicitudPorNumero::runTest
+--------------------------------------------------------------------
+Last Page: data:,
+  Browser: chrome (107.0.5304.87)
+   Driver: chromedriver (107.0.5304.62)
+Timestamp: 1666990700  (Unix Timestamp)
+     Date: Friday, October 28, 2022
+     Time: 2:58:20 PM  (Central America Standard Time, UTC-06:00)
+--------------------------------------------------------------------
+Traceback: File "C:\Program Files\Python310\lib\unittest\case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "C:\Program Files\Python310\lib\unittest\case.py", line 549, in _callTestMethod
+    method()
+  File "C:\QA\DYMM-1155\PruebasFinales\SistemaServicioInternetResidencial\Monitoreo_Solicitudes\busquedaSolicitudPorNumeroSolicitud.py", line 56, in runTest
+    cerrarSesion()
+  File "C:\QA\DYMM-1155\PruebasFinales\SistemaServicioInternetResidencial\Monitoreo_Solicitudes\busquedaSolicitudPorNumeroSolicitud.py", line 66, in cerrarSesion
+    driver.find_element(by= By.ID, value = "iconosalir").click()
+  File "C:\Users\car4173at\AppData\Roaming\Python\Python310\site-packages\selenium\webdriver\remote\webelement.py", line 88, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\car4173at\AppData\Roaming\Python\Python310\site-packages\selenium\webdriver\remote\webelement.py", line 396, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\car4173at\AppData\Roaming\Python\Python310\site-packages\selenium\webdriver\remote\webdriver.py", line 428, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\car4173at\AppData\Roaming\Python\Python310\site-packages\selenium\webdriver\remote\errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+Exception: Message: element not interactable
+  (Session info: chrome=107.0.5304.88)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00DA1ED3+2236115]
+	Ordinal0 [0x00D392F1+1807089]
+	Ordinal0 [0x00C465C0+812480]
+	Ordinal0 [0x00C76586+1009030]
+	Ordinal0 [0x00C6C416+967702]
+	Ordinal0 [0x00C91A8C+1120908]
+	Ordinal0 [0x00C6BD84+966020]
+	Ordinal0 [0x00C91CA4+1121444]
+	Ordinal0 [0x00CA59E2+1202658]
+	Ordinal0 [0x00C918A6+1120422]
+	Ordinal0 [0x00C6A73D+960317]
+	Ordinal0 [0x00C6B71F+964383]
+	GetHandleVerifier [0x0104E7E2+2743074]
+	GetHandleVerifier [0x010408D4+2685972]
+	GetHandleVerifier [0x00E32BAA+532202]
+	GetHandleVerifier [0x00E31990+527568]
+	Ordinal0 [0x00D4080C+1837068]
+	Ordinal0 [0x00D44CD8+1854680]
+	Ordinal0 [0x00D44DC5+1854917]
+	Ordinal0 [0x00D4ED64+1895780]
+	BaseThreadInitThunk [0x7637FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77717BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77717B8E+238]
